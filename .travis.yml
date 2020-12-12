@@ -19,7 +19,6 @@ before_script:
   - npm install -g bower
   - bundle install
   - bower install
-  - npm run test
   - grunt prod
 notifications:
   email: true
